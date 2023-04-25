@@ -1,0 +1,73 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 4%;
+    position: relative;
+    z-index: 10;
+}
+
+.header .logo img{
+    height: 6em;
+}
+
+.header .navbar a{
+    letter-spacing: 2px;
+    top: 10px;
+    right: 10px;
+    margin: 1em;
+    text-decoration: none;
+    font-size: 1em;
+    font-family: "Poppins medium", sans-serif;
+}
+
+.header .navbar a:hover{
+    transition: 0.5s ease-in-out;
+    opacity: 60%;
+}
+
+.Portafolio {
+    color: #945159;
+}
+
+.About {
+    color: #202536;
+}
+
+.contact {
+    color: #945159;
+}
+
+.textoInicial {
+    padding-top: 4em;
+    text-align: center;
+    font-family: "Poppins Black", sans-serif;
+    font-size: 2em;
+    color: transparent;
+    background: linear-gradient(to right, #945159, #202536);
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+.textoInicial:hover {
+    transition: 1s ease;
+    letter-spacing: 2px;
+    border: 2 px solid;
+}
+
+.Observa {
+    letter-spacing: 1px;
+    text-align: center;
+    padding-top: 4em;
+    font-size: 1.5em;
+    font-family: "Poppins Black", sans-serif;
+    color: transparent;
+    background: linear-gradient(to right, #945159, #202536);
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
